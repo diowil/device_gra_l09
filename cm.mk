@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := GRA-L09
+PRODUCT_RELEASE_NAME := M2-A01W
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
