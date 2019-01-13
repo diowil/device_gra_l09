@@ -28,4 +28,5 @@ Battery	      |Non-removable Li-Po 2680 mAh battery
 Colors 	      |Titanium Grey, Mystic Champagne (16 GB model); Carbon Black, Prestige Gold (64 GB model)
 
 
-![Huawei P8](http://cdn2.gsmarena.com/vv/pics/huawei/huawei-p8-0.jpg "P8")
+
+![Huawei M2 10.0](https://cdn2.gsmarena.com/vv/pics/huawei/huawei-mediapad-m2-10-2.jpg "M2 10.0")
