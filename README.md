@@ -1,6 +1,6 @@
 @Copyright 2017 - The LineageOS / Cyanogenmod Project
 
-Huawei P8 detailed specifications:
+Huawei MediaPad M2 detailed specifications:
 ======================================
 
 Basic         |Spec Sheet
