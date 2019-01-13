@@ -5,10 +5,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/huawei/hwgra/hwgra-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/liszt/liszt-vendor.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += \
-	device/huawei/hwgra/overlay
+	device/huawei/liszt/overlay
 
 #Dalvik & memory
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
@@ -210,8 +210,8 @@ $(BOOT_RAMDISK_SRC)/sbin/hw_ueventd:$(BOOT_RAMDISK_DST)/sbin/hw_ueventd
 #$(call inherit-product, build/target/product/full.mk) #we don't want to build emulator stuff
 
 
-PRODUCT_DEVICE:=hwgra
-PRODUCT_NAME:=full_hwgra
+PRODUCT_DEVICE:=liszt
+PRODUCT_NAME:=full_liszt
 PRODUCT_BRAND:=HUAWEI
-PRODUCT_MODEL:=HUAWEI GRA-L09
+PRODUCT_MODEL:=HUAWEI M2-A01W
 PRODUCT_MANUFACTURER:=HUAWEI
