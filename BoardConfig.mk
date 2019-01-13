@@ -19,7 +19,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 
 #Build
-DEVICE_FOLDER = device/huawei/hwgra
+DEVICE_FOLDER = device/huawei/liszt
 
 #USE JAVA 8 (EXPERIMENTAL)
 EXPERIMENTAL_USE_JAVA8 := true
@@ -260,7 +260,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-huawei
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchscreen/wakeup_gesture_enable"
 
 # inherit from the proprietary version
--include vendor/huawei/hwgra/BoardConfigVendor.mk
+-include vendor/huawei/liszt/BoardConfigVendor.mk
 
 
 
