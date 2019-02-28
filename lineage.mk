@@ -1,15 +1,15 @@
 # Release name
-PRODUCT_RELEASE_NAME := GRA-L09
+PRODUCT_RELEASE_NAME := M2-A01W
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-#$(call inherit-product, device/huawei/hwgra/device_hwgra.mk)
+#$(call inherit-product, device/huawei/hwliszt/device_hwliszt.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE:=hwgra
-PRODUCT_NAME:=lineage_hwgra
+PRODUCT_DEVICE:=hwliszt
+PRODUCT_NAME:=lineage_hwliszt
 PRODUCT_BRAND:=HUAWEI
-PRODUCT_MODEL:=HUAWEI GRA-L09
+PRODUCT_MODEL:=HUAWEI M2-A01W
 PRODUCT_MANUFACTURER:=HUAWEI
