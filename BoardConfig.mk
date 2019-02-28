@@ -1,12 +1,12 @@
 # inherit from the proprietary version
--include vendor/huawei/hwgra/BoardConfigVendor.mk
+-include vendor/huawei/hwliszt/BoardConfigVendor.mk
 
 #Assert
-TARGET_OTA_ASSERT_DEVICE := hwgra,gra_l09,huawei_p8,ascend_p8,p8,grace,hi3635
+TARGET_OTA_ASSERT_DEVICE := hwliszt,m2_a01w,huawei_m210,mediapad_M2,hi3635
 
 
 #CM Hardware abstraction
-BOARD_HARDWARE_CLASS := device/huawei/hwgra/cmhw/
+BOARD_HARDWARE_CLASS := device/huawei/hwliszt/cmhw/
 
 
 # Enable WebGL
@@ -18,7 +18,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 
 #Build
-DEVICE_FOLDER = device/huawei/hwgra
+DEVICE_FOLDER = device/huawei/hwliszt
 
 #This is experimental
 #EXPERIMENTAL_USE_JAVA8 := true
@@ -69,7 +69,7 @@ TARGET_BOARD_GPU := mali-t628
 TARGET_HARDWARE_3D := true
 ANDROID_ENABLE_RENDERSCRIPT := true
 USE_OPENGL_RENDERER := true
-BOARD_EGL_CFG := device/huawei/hwgra/gpu/egl.cfg
+BOARD_EGL_CFG := device/huawei/hwliszt/gpu/egl.cfg
 
 
 #Audio
@@ -242,7 +242,7 @@ ADDITIONAL_BUILD_PROPERTIES += \
 	net.tethering.noprovisioning=true \
 	ro.config.hw_floatvideo=false \
 	ro.config.hw_ReduceSAR=false \
-	ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_GRA_L09_UAProfile.xml \
+	ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_M2_A01W_UAProfile.xml \
 	ro.setupwizard.mode=DISABLED \
 	ro.config.calendarsound=Step.ogg \
 	ro.config.soundtrigger_enabled=0 \
@@ -256,9 +256,9 @@ ADDITIONAL_BUILD_PROPERTIES += \
 	ro.config.hw_channel_info=0,0,0,0 \
 	ro.product.hardwareversion=HL2UGRACEM \
 	ro.config.support_ca=false \
-	ro.product.varprofile.base=L09 \
+	ro.product.varprofile.base=A01W \
 	ro.config.hw_cp_showagree=true \
-	ro.product.varprofile.highhigh=L09 \
+	ro.product.varprofile.highhigh=A01W \
 	ro.product.varprofile=true \
 	ro.config.hw_ECT=true \
 	ro.config.hw_rcs_product=true \
