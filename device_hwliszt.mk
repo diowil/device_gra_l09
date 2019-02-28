@@ -4,14 +4,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/huawei/hwgra/hwgra-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/hwliszt/hwliszt-vendor.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += \
-	device/huawei/hwgra/overlay
+	device/huawei/hwliszt/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/huawei/hwgra/kernel
+	LOCAL_KERNEL := device/huawei/hwliszt/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
@@ -191,8 +191,8 @@ $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
-PRODUCT_DEVICE:=hwgra
-PRODUCT_NAME:=full_hwgra
+PRODUCT_DEVICE:=hwliszt
+PRODUCT_NAME:=full_hwliszt
 PRODUCT_BRAND:=HUAWEI
-PRODUCT_MODEL:=HUAWEI GRA-L09
+PRODUCT_MODEL:=HUAWEI M2-A01W
 PRODUCT_MANUFACTURER:=HUAWEI
