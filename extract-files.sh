@@ -2,7 +2,7 @@
 #by Nexolight 
 
 VENDORNAME="huawei"
-CODENAME="hwgra"
+CODENAME="hwliszt"
 PFILES="device/$VENDORNAME/$CODENAME/proprietary-files6.0.txt"
 USEADB=false
 
